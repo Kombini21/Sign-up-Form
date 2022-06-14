@@ -1,0 +1,23 @@
+.fullBody{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px red solid;
+}
+.rightForm{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signUp{
+
+    display: flex;
+    gap: 20px;
+}
