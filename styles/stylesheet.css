@@ -1,23 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Roboto:ital,wght@1,100;1,400&display=swap');
+
+
+
 .fullBody{
 
+    
     display: flex;
     flex-direction: row;
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    border: 1px red solid;
-}
+
 .rightForm{
+    
+
     
     display: flex;
     flex-direction: column;
-
+    padding: 50px;
 }
 
 .signUp{
 
     display: flex;
     gap: 20px;
+}
+
+form{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.image1{
+
+    width: 31vw;
+}
+
+
+h4,
+h3,
+h2,
+h1{
+    font-family: 'Inter', sans-serif;
+
+}
+
+button{
+
+    font-family: 'Inter', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: greenyellow;
 }
